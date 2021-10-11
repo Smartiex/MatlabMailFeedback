@@ -2,7 +2,7 @@ function sendmsg(to,subject,message,attachments)
 %SENDMSG uses matlab SENDMAIL function to send mail pre-compiled with a set 
 % of useful info. The input arguments are the same of SENDMAIL:
 %
-% sendmail(TO,SUBJECT,MESSAGE,ATTACHMENTS) sends an e-mail.  TO is either a
+% sendmail(TO,SUBJECT,MESSAGE,ATTACHMENTS) sends an e-mail.  
 %     string specifying a single address, or a cell array of addresses.  SUBJECT
 %     is a string.  MESSAGE is either a string or a cell array.  If it is a
 %     string, the text will automatically wrap at 75 characters.  If it is a cell
